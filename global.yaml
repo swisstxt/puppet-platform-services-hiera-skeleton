@@ -10,5 +10,6 @@
 #platform_services_puppet::agent::disable: true
 #platform_services_puppet::master::disable: true
 
+#platform_services_puppet::agent::cron::disable
 #puppet::server::master_template: 'site_puppet/puppet.conf.master.erb'
 #platform_services_icinga::server::site_classes: 'site_icinga'
