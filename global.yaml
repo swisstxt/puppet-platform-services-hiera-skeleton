@@ -1,0 +1,14 @@
+#cloudstack_api_key: XXXXXXXX
+#cloudstack_secret_key: XXXXXXXX
+
+#authconfig::ldap: true
+#authconfig::ldapauth: true
+#authconfig::ldapbasedn: 'ou=XXX,dc=stxt,dc=mpc'
+#authconfig::sssd_ldapbinddn: 'cn=ldap-reader,ou=XXX,dc=stxt,dc=mpc'
+#authconfig::sssd_ldapbindpw: XXXXXXXX
+
+#platform_services_puppet::agent::disable: true
+#platform_services_puppet::master::disable: true
+
+#puppet::server::master_template: 'site_puppet/puppet.conf.master.erb'
+#platform_services_icinga::server::site_classes: 'site_icinga'
