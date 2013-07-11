@@ -10,4 +10,5 @@ authconfig::sssd_ldapbinddn: 'cn=ldap-reader,ou=XXX,dc=stxt,dc=mpc'
 authconfig::sssd_ldapbindpw: 'XXXXXXXX'
 
 platform_services_icinga::server::version: '1.8.4-4.el6.rf'
+platform_services_icinga::server::web_version: '1.7.2-2.el6.rf'
 
