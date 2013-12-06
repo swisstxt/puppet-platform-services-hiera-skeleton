@@ -13,5 +13,6 @@ platform_services_icinga::server::version: '1.8.4-4.el6.rf'
 platform_services_icinga::server::web_version: '1.7.2-2.el6.rf'
 
 platform_services_haproxy::server::high_available: true
-###platform_services_haproxy::server::site_classes: 'site_haproxy::services'
+
+###platform_services_haproxy::server::site_classes: 'profile::haproxy::services'
 ###platform_services::manage_front_ips: true
