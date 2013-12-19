@@ -9,6 +9,8 @@ authconfig::sssdauth: false
 authconfig::sssd_ldapbinddn: 'cn=ldap-reader,ou=XXX,dc=stxt,dc=mpc'
 authconfig::sssd_ldapbindpw: 'XXXXXXXX'
 
+pnp4nagios::params::monitoring_type: 'icinga'
+
 platform_services_icinga::server::version: '1.8.4-4.el6.rf'
 platform_services_icinga::server::web_version: '1.7.2-2.el6.rf'
 
@@ -16,3 +18,4 @@ platform_services_haproxy::server::high_available: true
 
 ###platform_services_haproxy::server::site_classes: 'profile::haproxy::services'
 ###platform_services::manage_front_ips: true
+###platform_services_icinga::server::use_pnp4nagios: true
